@@ -4,4 +4,6 @@
 
 ![Conexiones de los arduinos](archive/circuit_image.png)
 
-<p>Por otro lado, si ya conoces algo de la librería TVout sabrás que la señal de video que se produce tiene solo pixeles de un bit, solo blanco y negro, además de que la resolución máxima es de 120 x 96 pixeles, por lo cual si quieres tener un video grabado deberías por lo menos hacerle un post-procesado para que se pueda entender la imagen. Por esto, dentro de los archivos deje un archivo de Processing con funciones que dibujan en el void draw() o en el buffer que se le indique la imagen entregada con un filtro bayer o "bit map", está en sus versiones 2x2, 4x4 y 8x8.</p>
+<p>Por otro lado, si ya conoces algo de la librería TVout sabrás que la señal de video que se produce tiene solo pixeles de un bit, solo blanco y negro, además de que la resolución máxima es de 120 x 96 pixeles, por lo cual si quieres tener un video grabado deberías por lo menos hacerle un post-procesado para que se pueda entender la imagen. Por esto, dentro de los archivos deje un archivo de Processing con funciones que dibujan en el void draw() o en el buffer que se le indique la imagen entregada con un filtro bayer o "bit map", está en sus versiones 2x2, 4x4 y 8x8. Además intentar usar imágenes con alto contraste y poco detalle para lograr un mejor entendimiento de las imagenes.</p>
+
+![Ejemplo de imagen con efecto bitmap](archive/gifexplicativo.gif)
